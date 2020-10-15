@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: fliptrack
+Version: 1.0.0
+Summary: A Library for getting Flipkart Products info
+Home-page: https://github.com/saikatsahana77/fliptrack.git
+Author: Saikat Sahana
+Author-email: saikatsahana91@gmail.com
+License: MIT
+Description: This is Basically a Library for People who want to simplify the process of getting details of all kinds on flipkart products in Python.
+        
+        For more Information Visit: https://github.com/saikatsahana77/fliptrack.git
+        
+        Change Log
+        ==========
+        
+        1.0.0 (15/10/2020)
+        ------------------
+        - First release
+Keywords: flipkart_python fliptrack flipkart_module_python
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+fliptrack/__init__.py
+fliptrack.egg-info/PKG-INFO
+fliptrack.egg-info/SOURCES.txt
+fliptrack.egg-info/dependency_links.txt
+fliptrack.egg-info/requires.txt
+fliptrack.egg-info/top_level.txt
