@@ -59,7 +59,7 @@ This will ensure that you have imported the module correctly.
 
    ```python3
    from fliptrack import Fliptrack
-   k = Flipkart(<URL of Product>)
+   k = Fliptrack(<URL of Product>)
    print(k.price())
    ```
 
@@ -72,7 +72,7 @@ This will ensure that you have imported the module correctly.
 
    ```python3
    from fliptrack import Fliptrack
-   k = Flipkart(<URL of Product>)
+   k = Fliptrack(<URL of Product>)
    print(k.title())
    ```
 
@@ -84,7 +84,7 @@ This will ensure that you have imported the module correctly.
 
    ```python3
    from fliptrack import Fliptrack
-   k = Flipkart(<URL of Product>)
+   k = Fliptrack(<URL of Product>)
    print(k.rating())
    ```
 
@@ -96,7 +96,7 @@ This will ensure that you have imported the module correctly.
 
    ```python3
    from fliptrack import Fliptrack
-   k = Flipkart(<URL of Product>)
+   k = Fliptrack(<URL of Product>)
    print(k.description())
    ```
 
@@ -108,7 +108,7 @@ This will ensure that you have imported the module correctly.
 
    ```python3
    from fliptrack import Fliptrack
-   k = Flipkart(<URL of Product>)
+   k = Fliptrack(<URL of Product>)
    print(k.mrp())
    ```
 
@@ -120,7 +120,7 @@ This will ensure that you have imported the module correctly.
 
    ```python3
    from fliptrack import Fliptrack
-   k = Flipkart(<URL of Product>)
+   k = Fliptrack(<URL of Product>)
    print(k.discount())
    ```
 
@@ -133,7 +133,7 @@ This will ensure that you have imported the module correctly.
 
    ```python3
    from fliptrack import Fliptrack
-   k = Flipkart(<URL of Product>)
+   k = Fliptrack(<URL of Product>)
    print(k.seller_name())
    ```
    This takes the link of the product and returns you the best seller name (recommended by Flipkart) of the product. Return type is str.
@@ -145,7 +145,7 @@ This will ensure that you have imported the module correctly.
 
    ```python3
    from fliptrack import Fliptrack
-   k = Flipkart(<URL of Product>)
+   k = Fliptrack(<URL of Product>)
    print(k.seller_ratings())
    ```
    This takes the link of the product and returns you the best seller rating (recommended by Flipkart) of the product. Return type is float.
@@ -156,7 +156,7 @@ This will ensure that you have imported the module correctly.
 
    ```python3
    from fliptrack import Fliptrack
-   k = Flipkart(<URL of Product>)
+   k = Fliptrack(<URL of Product>)
    print(k.highlights())
    ```
    This takes the link of the product and returns you the highlights of the product. Return type is a list of str.
@@ -167,14 +167,14 @@ This will ensure that you have imported the module correctly.
 
    ```python3
    from fliptrack import Fliptrack
-   k = Flipkart(<URL of Product>)
+   k = Fliptrack(<URL of Product>)
    print(k.ratings_star())
    ```
    This takes the link of the product and returns you the number of ratings for each star of the product. Return type is a list of int. Order is from 5 Stars to 1 Star. For getting the value of a particular star however you can pass a optional argument of the star whose value you need to check, if that exists, it will return you the integer value of the number of ratings on that particular star, otherwise it will return the whole list. For example if you want to see how how many people have rated the product 2 star, the code would be as follows:
 
    ```python3
    from fliptrack import Fliptrack
-   k = Flipkart(<URL of Product>)
+   k = Fliptrack(<URL of Product>)
    print(k.ratings_star(2))
    ```
 
@@ -184,7 +184,7 @@ This will ensure that you have imported the module correctly.
 
    ```python3
    from fliptrack import Fliptrack
-   k = Flipkart(<URL of Product>)
+   k = Fliptrack(<URL of Product>)
    print(k.ratings_cnt())
    ```
    This takes the link of the product and returns you the total number of ratings on the product. Return type is int.
@@ -195,7 +195,7 @@ This will ensure that you have imported the module correctly.
 
    ```python3
    from fliptrack import Fliptrack
-   k = Flipkart(<URL of Product>)
+   k = Fliptrack(<URL of Product>)
    print(k.reviews_cnt())
    ```
    This takes the link of the product and returns you the total number of reviews on the product. Return type is int.
